@@ -22,7 +22,6 @@
 - [API Endpoints](#-api-endpoints)
 - [Estructura del Proyecto](#-estructura-del-proyecto)
 - [Capturas de Pantalla](#-capturas-de-pantalla)
-- [Autores](#-autores)
 - [Licencia](#-licencia)
 
 ---
@@ -888,16 +887,6 @@ in the Software without restriction...
 - [Introduction to CLIPS](https://clipsrules.net/Documentation.html)
 - [Building Expert Systems with CLIPS](https://www.youtube.com/watch?v=example)
 - [Flask REST API Tutorial](https://flask.palletsprojects.com/en/latest/tutorial/)
-
----
-
-## 📞 Contacto
-
-**Johan [Tu Apellido]**
-
-- 📧 Email: tu-email@ejemplo.com
-- 💼 LinkedIn: [tu-perfil](https://linkedin.com/in/tu-perfil)
-- 🐙 GitHub: [@tu-usuario](https://github.com/tu-usuario)
 
 ---
 
