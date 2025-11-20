@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore - E-Commerce Inteligente</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">🛒</span>
+                <h1>TechStore</h1>
+                <span class="badge-ai">AI-Powered</span>
+            </div>
+            <nav>
+                <a href="#" class="nav-link active">🏠 Inicio</a>
+                <a href="#" class="nav-link">📦 Categorías</a>
+                <a href="#" class="nav-link">🔥 Ofertas</a>
+                <a href="#" id="cart-btn" class="cart-btn">
+                    🛒 Carrito <span class="cart-count">0</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner -->
+    <section class="hero">
+        <div class="container">
+            <h2>🤖 Precios Inteligentes en Tiempo Real</h2>
+            <p>Nuestro sistema experto ajusta los precios según la demanda, stock y comportamiento de usuarios</p>
+        </div>
+    </section>
+
+    <!-- Productos -->
+    <main class="container">
+        <div class="filters">
+            <h3>Filtrar por:</h3>
+            <button class="filter-btn active" data-categoria="todos">Todos</button>
+            <button class="filter-btn" data-categoria="Smartphones">📱 Smartphones</button>
+            <button class="filter-btn" data-categoria="Laptops">💻 Laptops</button>
+            <button class="filter-btn" data-categoria="TV">📺 TV</button>
+            <button class="filter-btn" data-categoria="Audio">🎧 Audio</button>
+            <button class="filter-btn" data-categoria="Gaming">🎮 Gaming</button>
+        </div>
+
+        <div class="productos-grid" id="productos-grid">
+            <!-- Los productos se cargarán aquí dinámicamente -->
+        </div>
+    </main>
+
+    <!-- Modal de producto -->
+    <div id="modal-producto" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- Modal de compra exitosa -->
+    <div id="modal-exito" class="modal">
+        <div class="modal-content modal-exito">
+            <h2>✅ ¡Compra Exitosa!</h2>
+            <p id="mensaje-exito"></p>
+            <button onclick="cerrarModalExito()" class="btn-primary">Continuar Comprando</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>🤖 Sistema Experto de Pricing Dinámico | Workshop 5 - Rule Based Systems</p>
+            <p>Los precios se ajustan automáticamente usando CLIPS</p>
+        </div>
+    </footer>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
